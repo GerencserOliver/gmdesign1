@@ -12,8 +12,31 @@
 }
 
 .wrapper {
-  background-color: rgb(15, 13, 15) !important;
+  background-color: white !important;
 }
+
+/* Intro Background Animation */
+.intro-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #0f766e;
+  animation: fadeOut 0.7s ease-in-out forwards;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.content {
+  text-align: center;
+  margin-top: 50px;
+}
+
 
 .App-logo {
   height: 40vmin;
