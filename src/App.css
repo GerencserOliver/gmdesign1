@@ -15,6 +15,28 @@
   background-color: white !important;
 }
 
+li{
+  transition: all 0.3s ease-in-out;
+}
+
+.li:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Alapértelmezett stílus */
+.scroll-in {
+  opacity: 0; /* Kezdetben átlátszó */
+  transform: translateY(20px); /* Alulról indul */
+  transition: all 0.7s ease-in-out; /* Simaság */
+}
+
+.scroll-in.show {
+  opacity: 1; /* Teljesen látható */
+  transform: translateY(0); /* Eredeti helyére kerül */
+}
+
+
 /* Intro Background Animation */
 .intro-background {
   position: fixed;
