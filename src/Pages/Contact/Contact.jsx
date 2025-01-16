@@ -6,8 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div>
         <IntroAnimation />
@@ -16,16 +18,11 @@ const Contact = () => {
           <div className='container mx-auto max-w-[1570px] flex flex-col md:flex-row px-4 md:px-10 z-1'>
             <div className='scroll-in w-full md:w-4/6 text-center md:text-left'>
               <h1 className='text-black font-bold font-poppins text-xl mb-6'>
-                Website Design & Development | Performance-Driven | Győr
+                {t('contact.subtitle')}
               </h1>
               <h1 className='text-black font-bold font-poppins text-3xl sm:text-5xl md:text-8xl mb-6'>
-                Contact
+                {t('contact.title')}
               </h1>
-            </div>
-            <div className='md:w-2/6' >
-              <button className='bg-orange-700 hover:bg-gray-800 text-white text-base sm:text-lg md:text-xl w-full font-bold font-poppins md:px-24 px-6 py-6 mt-4 rounded-full mb-16 md:mb-0'>
-              <Link to='/contact'>Request a Quote</Link>
-              </button>
             </div>
           </div>
           <div className="flex-col items-center space-y-4 text-black mt-10 hidden md:block fixed left-0 z-10">
