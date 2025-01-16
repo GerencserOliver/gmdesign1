@@ -9,12 +9,15 @@ export default async function handler(req, res) {
 
   // Nodemailer transporter beállítása
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.gmail.com', // Gmail SMTP szerver
+    port: 465, // Biztonságos port
+    secure: true, // SSL használata
     auth: {
-      user: process.env.EMAIL_USER, // Környezeti változó (a Vercel Dashboard-on kell beállítani)
-      pass: process.env.EMAIL_PASS, // Környezeti változó
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
     },
   });
+  
 
   const mailOptions = {
     from: email,
