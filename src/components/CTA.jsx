@@ -28,12 +28,12 @@ const CTA = () => {
 
     try {
       // Fetch kérés küldése a backendnek
-      const response = await fetch('http://localhost:5000/send-email', {
+      const response = await fetch('/api/send-email', { // Ez automatikusan az aktuális domain-t használja
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData), // Küldd el az adatokat JSON formátumban
+        body: JSON.stringify(formData),
       });
 
       if (response.ok) {
