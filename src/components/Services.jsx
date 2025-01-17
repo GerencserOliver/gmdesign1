@@ -43,9 +43,9 @@ const Services = () => {
     <section className='flex items-center justify-center bg-gray-100'>
       <div className='flex flex-col text-black container mx-auto max-w-[1570px] mt-32 mb-32 px-8'>
         <div className='text-left md:w-1/2 scroll-in '>
-          <h1 className='text-black font-extrabold font-poppins text-3xl md:text-5xl'>
+          <h2 className='text-black font-extrabold font-poppins text-3xl md:text-5xl'>
             {t('services.header.title')}
-          </h1>
+          </h2>
           <div className='border-black border-b-8 w-36 h-8'></div>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 scroll-in'>

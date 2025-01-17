@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-full text-black container mx-auto max-w-[1480px]">
             <button>
               <Link to='/'>
-                <img src={logo} alt="Logo" className='w-24' />
+                <img src={logo} alt="GMDesignLogo" className='w-24' />
               </Link>
             </button>
 

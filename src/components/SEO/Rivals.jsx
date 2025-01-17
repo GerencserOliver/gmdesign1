@@ -11,9 +11,9 @@ const Rivals = () => {
     <section className="flex flex-col md:flex-row items-center justify-center bg-zinc-900 md:h-[80vh]">
       {/* Szöveges rész */}
       <div className="scroll-in text-black container mx-auto p-8 md:px-16 flex flex-col items-center md:items-start md:w-1/2 order-2">
-        <h1 className="text-white font-extrabold font-poppins text-3xl md:text-5xl mb-6 md:text-left md:mt-0 mt-12">
+        <h2 className="text-white font-extrabold font-poppins text-3xl md:text-5xl mb-6 md:text-left md:mt-0 mt-12">
           {t('rivals.heading')}
-        </h1>
+        </h2>
         <p className="text-teal-700 font-poppins text-xl md:text-2xl mb-6 md:text-left">
           {t('rivals.description')}
         </p>
@@ -24,7 +24,7 @@ const Rivals = () => {
 
       {/* Kép rész */}
       <div className="scroll-in w-full md:w-1/2 h-64 sm:h-96 md:h-full md:mt-0 order-1">
-        <img src={Office} alt="office" className="w-full h-full object-cover" />
+        <img src={Office} alt="OfficeImage" className="w-full h-full object-cover" />
       </div>
     </section>
   );

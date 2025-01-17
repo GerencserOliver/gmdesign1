@@ -39,9 +39,9 @@ const Questions = () => {
   return (
     <section className="flex items-center justify-center bg-gray-100 py-12">
       <div className="scroll-in container mx-auto max-w-[900px] px-4">
-        <h1 className="text-black font-extrabold font-poppins text-3xl md:text-4xl mb-6 text-center">
+        <h2 className="text-black font-extrabold font-poppins text-3xl md:text-4xl mb-6 text-center">
           {t('questions.title')}
-        </h1>
+        </h2>
         <div className="space-y-4">
           {faqData.map((item, index) => (
             <div

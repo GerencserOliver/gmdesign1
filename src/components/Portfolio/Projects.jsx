@@ -23,16 +23,16 @@ const Projects = () => {
     <section className='flex items-center justify-center bg-white mt-12'>
         <div className='container mx-auto max-w-[1570px] flex flex-col px-4 md:px-10 md:mt-0 mt-12'>
             <div className='max-w-[800px] scroll-in'>
-                <h1 className='text-black font-extrabold font-poppins text-3xl md:text-6xl'>{t('projects.title')}</h1>
+                <h2 className='text-black font-extrabold font-poppins text-3xl md:text-6xl'>{t('projects.title')}</h2>
                 <div className='border-black border-b-8 w-36 h-8'></div>
             </div>
             <div className='flex items-center justify-center mt-16 md:mt-32 shadow-2xl scroll-in'>
-                <img src={Portfolio1} alt="portfolio1" className='w-full h-full object-cover' />
+                <img src={Portfolio1} alt="PortfolioImage1" className='w-full h-full object-cover' />
             </div>
             <div className='grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-40 md:mt-96 mt-24 scroll-in scroll-in'>
-                <img src={Portfolio2} alt="portfolio1" className='w-full object-cover shadow-2xl' />
-                <img src={Portfolio3} alt="portfolio1" className='w-full object-cover shadow-2xl' />
-                <img src={Portfolio4} alt="portfolio1" className='w-full object-cover shadow-2xl' />
+                <img src={Portfolio2} alt="PortfolioImage2" className='w-full object-cover shadow-2xl' />
+                <img src={Portfolio3} alt="PortfolioImage3" className='w-full object-cover shadow-2xl' />
+                <img src={Portfolio4} alt="PortfolioImage4" className='w-full object-cover shadow-2xl' />
             </div>
             <div className="mt-32 w-full h-auto flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 via-teal-500 to-green-500 p-16 rounded-lg shadow-lg transform hover:scale-105 transition-all">
                 <h2 className="text-white font-extrabold text-3xl md:text-4xl text-center mb-8">
@@ -45,7 +45,7 @@ const Projects = () => {
                 </Link>
             </div>
             <div className='flex items-center justify-center mt-16 md:mt-32 shadow-2xl scroll-in'>
-                <img src={CarRental1} alt="" className='w-full h-full object-cover' />
+                <img src={CarRental1} alt="CarRentalImage1" className='w-full h-full object-cover' />
             </div>
             <div className="mt-32 w-full h-auto flex flex-col items-center justify-center bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 p-16 rounded-lg shadow-lg transform hover:scale-105 transition-all">
                 <h2 className="text-white font-extrabold text-3xl md:text-4xl text-center">
@@ -58,15 +58,15 @@ const Projects = () => {
                 </Link> */}
             </div>
             <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-40 md:mt-32 mt-24 scroll-in scroll-in'>
-                <img src={Gym1} alt="portfolio1" className='w-full object-cover shadow-2xl' />
-                <img src={Gym3} alt="portfolio1" className='w-full object-cover shadow-2xl' />
-                <img src={Gym2} alt="portfolio1" className='w-full object-cover shadow-2xl' />
-                <img src={Gym4} alt="portfolio1" className='w-full object-cover shadow-2xl' />
+                <img src={Gym1} alt="GymImage1" className='w-full object-cover shadow-2xl' />
+                <img src={Gym3} alt="GymImage2" className='w-full object-cover shadow-2xl' />
+                <img src={Gym2} alt="GymImage3" className='w-full object-cover shadow-2xl' />
+                <img src={Gym4} alt="GymImage4" className='w-full object-cover shadow-2xl' />
             </div>
             <div className='grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-40 md:mt-96 mt-24 scroll-in scroll-in'>
-                <img src={Gym5} alt="portfolio1" className='w-full object-cover shadow-2xl' />
-                <img src={Gym6} alt="portfolio1" className='w-full object-cover shadow-2xl' />
-                <img src={Gym7} alt="portfolio1" className='w-full object-cover shadow-2xl' />
+                <img src={Gym5} alt="GymImage5" className='w-full object-cover shadow-2xl' />
+                <img src={Gym6} alt="GymImage6" className='w-full object-cover shadow-2xl' />
+                <img src={Gym7} alt="GymImage7" className='w-full object-cover shadow-2xl' />
             </div>
             <div className="mt-32 md:mb-16 w-full h-auto flex flex-col items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-16 rounded-lg shadow-lg transform hover:scale-105 transition-all">
                 <h2 className="text-white font-extrabold text-3xl md:text-4xl text-center mb-8">

@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importálás a Routerhez
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -24,6 +25,15 @@ function App() {
   return (
     <Router>
       <div className='wrapper'>
+        <Helmet>
+          <title>GM Website Design</title>
+          <meta
+            name="description"
+            content="GM Design is a web development agency that specializes in creating modern, responsive websites and SEO optimization."
+          />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://gmdesign.vercel.app" />
+        </Helmet>
         <Navbar />
         <Routes>
           {/* Főoldal */}

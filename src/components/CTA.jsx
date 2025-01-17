@@ -50,9 +50,9 @@ const CTA = () => {
     <section className='flex items-center justify-center bg-white md:h-[80vh] p-4'>
       <div className='flex flex-col-reverse md:flex-row items-center justify-center md:container mx-auto'>
         <form onSubmit={handleSubmit} className='w-full md:w-6/12 p-4 md:pr-12'>
-          <h1 className='text-black font-extrabold font-poppins text-3xl md:text-5xl mb-6 text-center md:text-left'>
+          <h2 className='text-black font-extrabold font-poppins text-3xl md:text-5xl mb-6 text-center md:text-left'>
             {t('cta.title')}
-          </h1>
+          </h2>
           <div className='border-black border-b-4 w-24 md:w-36 h-2 md:h-4 mb-6 mx-auto md:mx-0'></div>
           <div className='space-y-4'>
             <input
@@ -92,7 +92,7 @@ const CTA = () => {
           )}
         </form>
         <div className='w-full md:w-6/12 p-4'>
-          <img src={ctaImg} alt='CTA' className='w-full h-auto object-contain mx-auto' />
+          <img src={ctaImg} alt='CTAImage' className='w-full h-auto object-contain mx-auto' />
         </div>
       </div>
     </section>

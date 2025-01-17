@@ -23,6 +23,7 @@ const Prices = () => {
     },
     {
       image: Buildings,
+      alt: 'UX Design',
       name: t('prices.packages.ux.name'),
       price: '149,000 HUF',
       description: t('prices.packages.ux.description'),
@@ -33,9 +34,9 @@ const Prices = () => {
     <section className='mt-20 flex items-center justify-center'>
       <div className='flex flex-col text-black container mx-auto max-w-[1570px] px-8'>
         <div className='text-left md:w-1/2 scroll-in '>
-          <h1 className='text-black font-extrabold font-poppins text-3xl md:text-5xl'>
+          <h2 className='text-black font-extrabold font-poppins text-3xl md:text-5xl'>
             {t('prices.header.title')}
-          </h1>
+          </h2>
           <h3 className='text-black font-bold font-poppins text-2xl md:text-3xl mt-8'>
             {t('prices.header.subtitle')}
           </h3>

@@ -8,9 +8,9 @@ const Important = () => {
     <section className="flex items-center justify-center md:h-[140vh] bg-gray-100">
       <div className="scroll-in container mx-auto max-w-[1570px] flex flex-col px-4 md:px-10 md:mt-0 mt-12">
         <div className="max-w-[800px]">
-          <h1 className="text-black font-extrabold font-poppins text-3xl md:text-6xl">
+          <h2 className="text-black font-extrabold font-poppins text-3xl md:text-6xl">
             {t('important.heading1')}
-          </h1>
+          </h2>
           <h3 className="text-black font-bold font-poppins text-2xl md:text-3xl mt-8">
             {t('important.subheading1')}
           </h3>

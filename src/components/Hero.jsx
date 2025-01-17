@@ -32,19 +32,19 @@ const Hero = () => {
           </div>
         </div>
         <div className='md:w-2/6 text-right hidden md:block'>
-          <img src={heroImg} alt='Hero' className='max-w-xl' />
+          <img src={heroImg} alt='HeroImage' className='max-w-xl' />
         </div>
       </div>
       <div className="items-center space-y-4 text-black mt-10 md:mt-32 right-0 z-10">
-        <img src={WhiteLogo} alt="whiteLogo" className='absolute left-1/2 -translate-x-1/2 md:mt-96 mt-20 md:w-48 w-24' />
-        <img src={Nature} alt="portfolio1" className='w-full object-cover md:h-[110vh]' />
+        <img src={WhiteLogo} alt="GMDesignLogo" className='absolute left-1/2 -translate-x-1/2 md:mt-96 mt-20 md:w-48 w-24' />
+        <img src={Nature} alt="NatureImage" className='w-full object-cover md:h-[110vh]' />
       </div>
 
       <div className="flex-col items-center space-y-4 text-black mt-10 hidden md:block fixed left-0 z-10 top-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center space-y-4 text-white p-12">
           {/* Email Link */}
           <a
-            href="mailto:info@yourwebsite.com"
+            href="mailto:gmwebsitedesign@gmail.com"
             className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-black rounded-full p-3"
           >
             <FontAwesomeIcon icon={faEnvelope} className="text-white h-8" />
@@ -52,7 +52,7 @@ const Hero = () => {
 
           {/* Facebook Link */}
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/oliver.gerencser.5/"
             className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-black rounded-full p-3"
             target="_blank"
             rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const Hero = () => {
 
           {/* Instagram Link */}
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/oliveerphd/"
             className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-black rounded-full p-3"
             target="_blank"
             rel="noopener noreferrer"

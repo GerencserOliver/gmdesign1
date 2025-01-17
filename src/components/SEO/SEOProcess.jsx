@@ -61,9 +61,9 @@ const SEOProcess = () => {
   return (
     <section className="flex items-center justify-center bg-white">
       <div className="scroll-in container mx-auto max-w-[1570px] flex flex-col px-4 md:px-10 md:mt-12 mt-12">
-        <h1 className="text-black font-extrabold font-poppins text-3xl md:text-6xl max-w-screen-lg">
+        <h2 className="text-black font-extrabold font-poppins text-3xl md:text-6xl max-w-screen-lg">
           {t('seoProcess.heading')}
-        </h1>
+        </h2>
         <h3 className="text-black font-bold font-poppins text-2xl md:text-3xl mt-8 max-w-screen-lg md:mt-16">
           {t('seoProcess.subheading')}
         </h3>
