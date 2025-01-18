@@ -13,15 +13,14 @@ export default async function handler(req, res) {
     port: 465, // Biztonságos port
     secure: true, // SSL használata
     auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
+      user: process.env.EMAIL_USER, // Az email cím, amelyről küldöd az üzeneteket
+      pass: process.env.EMAIL_PASS, // Az email cím jelszava
     },
   });
-  
 
   const mailOptions = {
-    from: email,
-    to: 'sajatemail@gmail.com',
+    from: process.env.EMAIL_USER, // Az email cím, amelyről küldöd az üzeneteket
+    to: 'gmwebsitedesign@gmail.com', // Az email cím, amelyre érkeznek az üzenetek
     subject: 'New Contact Form Submission',
     html: `
       <h1>New Message from ${name}</h1>
@@ -38,5 +37,4 @@ export default async function handler(req, res) {
     console.error('Nodemailer error:', error); // Részletes hibaüzenet
     res.status(500).json({ success: false, error: error.message });
   }
-  
 }

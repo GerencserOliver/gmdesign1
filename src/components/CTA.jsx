@@ -27,8 +27,7 @@ const CTA = () => {
     setStatus(t('cta.sending')); // Lokalizált státusz
 
     try {
-      // Fetch kérés küldése a backendnek
-      const response = await fetch('/api/send-email', { // Ez automatikusan az aktuális domain-t használja
+      const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
