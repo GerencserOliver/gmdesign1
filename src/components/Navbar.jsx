@@ -59,9 +59,6 @@ const Navbar = () => {
                   <a href={link.href}>{link.name}</a>
                 </li>
               ))}
-              <button className='hover:bg-gray-800 bg-orange-700 p-3 pr-8 pl-8 rounded-md text-white font-poppins'>
-                <Link to='/contact'>Contact</Link>
-              </button>
             </ul>
         </div>
     </nav>

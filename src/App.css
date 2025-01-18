@@ -7,6 +7,10 @@
   src: url(../public/Poppins-Medium.ttf);
 }
 
+@viewport {
+  zoom: 1.0;
+}
+
 .App {
   text-align: center;
 }

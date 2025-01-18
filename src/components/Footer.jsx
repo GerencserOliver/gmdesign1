@@ -25,7 +25,7 @@ const changeLanguage = (lng) => {
   
 
   return (
-    <footer className='items-center justify-center bg-gray-100 h-[60vh] md:h-[50vh]'>
+    <footer className='items-center justify-center bg-gray-100 h-[62vh] md:h-[50vh]'>
         <div className='scroll-in flex flex-col md:flex-row text-black container mx-auto px-4'>
             <div className='md:w-1/2 md:mt-12 m-4'>
                 <img src={Logo} alt='GMDesignLogo' className='w-24' />
