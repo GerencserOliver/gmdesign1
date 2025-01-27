@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import ctaImg from '../images/ctaImg.avif';
+import ctaImg from '../images/Illustration of website development.webp';
 
 const CTA = () => {
   const [formData, setFormData] = useState({
@@ -91,7 +91,7 @@ const CTA = () => {
           )}
         </form>
         <div className='w-full md:w-6/12 p-4'>
-          <img src={ctaImg} alt='CTAImage' className='w-full h-auto object-contain mx-auto' />
+          <img src={ctaImg} alt='Illustration of website development with a person using a laptop and developer tools' className='w-full h-auto object-contain mx-auto' />
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; // Import the useTranslation hook
 
-import Business from '../../images/business.jpg';
+import Business from '../../images/Business image illustrating partner.webp';
 
 import CTA from '../../components/CTA';
 import Important from '../../components/SEO/Important';
@@ -54,7 +54,9 @@ const SEO = () => {
           </div>
         </div>
         <div className="items-center space-y-4 text-black mt-10 right-0 z-10">
-          <img src={Business} alt="BusinessImage" className="w-full object-cover h-[800px]" />
+          <img src={Business} alt="
+            Hand shaking with a business partner in a meeting illustrating the importance of SEO services for businesses
+          " className="w-full object-cover h-[800px]" />
         </div>
         <div className="flex-col items-center space-y-4 text-black mt-10 hidden md:block fixed left-0 z-10 top-1/2 -translate-y-1/2">
           <div className="flex flex-col items-center space-y-4 text-white p-12">

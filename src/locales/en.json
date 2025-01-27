@@ -3,7 +3,7 @@
     "hungarian": "Magyar",
     "hero": {
       "subtitle": "Website Design & Development | Performance-Driven | Győr",
-      "title": "Your Online Presence Starts and Thrives Here",
+      "title": "Website Development to Build Your Online Presence",
       "description": "Custom websites that captivate, perform, and grow your business. From design to deployment, we bring your ideas to life.",
       "button_text": "Request a Quote"
     },
@@ -14,15 +14,15 @@
         },
         "packages": {
         "seo": {
-            "name": "SEO Optimization",
+            "name": "SEO Optimization Services",
             "description": "Boost your business visibility by improving your Google rankings. Our monthly SEO services increase organic traffic and help you stand out in search results."
         },
         "website": {
-            "name": "Website Design",
+            "name": "Website Design & Development",
             "description": "Create a visually appealing and user-friendly website with modern design techniques. We ensure fast loading times and intuitive navigation, making the first impression count."
         },
         "ux": {
-            "name": "UX Design",
+            "name": "UX Design & Optimization",
             "description": "Optimize your website’s usability and functionality. We focus on intuitive navigation and fast loading speeds to provide the best user experience from the first visit."
         }
         },
@@ -61,7 +61,7 @@
         "header": "Boost the Performance of Your Business Website or Online Store",
         "description": "In-depth analysis, SEO optimization, and UX improvements for websites and online stores.",
         "button": "Request a Quote",
-        "imageAlt": "Laptop showing business performance improvements"
+        "imageAlt": "Laptop showing business performance improvements regarding SEO and UX"
     },
     "usSection": {
         "introductionTitle": "Introduction",
@@ -110,7 +110,7 @@
         "title": "Business Website Development with a 100% Guarantee",
         "description": "Get a professional and custom-built website that perfectly represents your business. We offer a 100% satisfaction guarantee, ensuring your site meets your expectations and drives results.",
         "button": "Request a Quote",
-        "imageAlt": "Modern office workspace with laptop and tools"
+        "imageAlt": "Modern office workspace with laptop and tools illustrating business website development guarantee"
     },
     "wdprices": {
         "title": "Pricing and Packages",

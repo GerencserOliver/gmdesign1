@@ -15,7 +15,7 @@ import Services from '../../components/Services';
 import Questions from '../../components/WebsiteDev/Questions';
 import WebsiteBuilding from '../../components/WebsiteDev/WebsiteBuilding';
 
-import Construction from '../../images/construction.jpg';
+import Construction from '../../images/Construction illustration of webdevelopment.webp';
 
 import { useTranslation } from 'react-i18next';
 
@@ -56,7 +56,9 @@ const Website = () => {
           </div>
         </div>
         <div className="items-center space-y-4 text-black mt-10 right-0 z-10">
-          <img src={Construction} alt="ConstructionImage" className='w-full object-cover h-[800px]' />
+          <img src={Construction} alt="
+          Construction Site illustration of a website under construction"
+          className='w-full object-cover h-[800px]' />
         </div>
         <div className="flex-col items-center space-y-4 text-black mt-10 hidden md:block fixed left-0 z-10 top-1/2 -translate-y-1/2">
           <div className="flex flex-col items-center space-y-4 text-white p-12">

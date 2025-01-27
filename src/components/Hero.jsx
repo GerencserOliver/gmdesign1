@@ -1,13 +1,13 @@
 import React from 'react';
-import heroImg from '../images/heroImg.png';
+import heroImg from '../images/Woman working on laptop illustrating website development.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-import Nature from '../images/nature.jpg';
-import WhiteLogo from '../images/whiteLogo.png';
+import Nature from '../images/Background.webp';
+import WhiteLogo from '../images/Gm website design and seo white logo.webp';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -32,12 +32,12 @@ const Hero = () => {
           </div>
         </div>
         <div className='md:w-2/6 text-right hidden md:block'>
-          <img src={heroImg} alt='HeroImage' className='max-w-xl' />
+          <img src={heroImg} alt='Illustration of website development with a person using a laptop and developer tools' className='max-w-xl' />
         </div>
       </div>
       <div className="items-center space-y-4 text-black mt-10 md:mt-32 right-0 z-10">
-        <img src={WhiteLogo} alt="GMDesignLogo" className='absolute left-1/2 -translate-x-1/2 md:mt-96 mt-20 md:w-48 w-24' />
-        <img src={Nature} alt="NatureImage" className='w-full object-cover md:h-[110vh]' />
+        <img src={WhiteLogo} alt="GM logo – Website Design and SEO Optimization Services" className='absolute left-1/2 -translate-x-1/2 md:mt-96 mt-20 md:w-48 w-24' />
+        <img src={Nature} alt="Majestic mountains and serene nature landscape with clear skies and lush greenery" className='w-full object-cover md:h-[110vh]' />
       </div>
 
       <div className="flex-col items-center space-y-4 text-black mt-10 hidden md:block fixed left-0 z-10 top-1/2 -translate-y-1/2">

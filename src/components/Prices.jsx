@@ -1,7 +1,7 @@
 import React from 'react';
-import Laptop from '../images/laptop.jpg';
-import Office from '../images/office.avif';
-import Buildings from '../images/buildings.jpg';
+import Laptop from '../images/Laptop for price.webp';
+import Office from '../images/Website Design & Development.webp';
+import Buildings from '../images/UX Design & Optimization.webp';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 

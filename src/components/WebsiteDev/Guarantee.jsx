@@ -1,5 +1,5 @@
 import React from 'react';
-import Office from '../../images/office.jpg';
+import Office from '../../images/Laptop in an office illustrating website development.webp';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 

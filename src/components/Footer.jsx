@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/logo.png'
+import Logo from '../images/GM website design and seo logo.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -28,7 +28,9 @@ const changeLanguage = (lng) => {
     <footer className='items-center justify-center bg-gray-100 h-[62vh] md:h-[50vh]'>
         <div className='scroll-in flex flex-col md:flex-row text-black container mx-auto px-4'>
             <div className='md:w-1/2 md:mt-12 m-4'>
-                <img src={Logo} alt='GMDesignLogo' className='w-24' />
+                <img src={Logo} alt='
+                GM logo – Website Design and SEO Optimization Services
+                ' className='w-24' />
             </div>
             <div className='md:w-1/2 md:mt-20'>
                 <ul className='hidden md:flex items-center justify-end h-full ml-auto'>

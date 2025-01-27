@@ -4,7 +4,7 @@
     "hero": 
     {
         "subtitle": "Weboldal tervezés és fejlesztés | Teljesítményorientált | Győr",
-        "title": "Itt kezdődik és fejlődik online jelenléted",
+        "title": "Weboldal Készítés az Online Jelenlétedért",
         "description": "Egyedi weboldalak, amelyek megragadják a figyelmet, teljesítenek, és növelik vállalkozásod. A tervezéstől a megvalósításig életre keltjük ötleteid.",
         "button_text": "Kérj ajánlatot"
     },
@@ -15,15 +15,15 @@
         },
         "packages": {
         "seo": {
-            "name": "SEO Optimalizálás",
+            "name": "SEO Optimalizálás és Tanácsadás",
             "description": "Növelje vállalkozása láthatóságát a Google helyezések javításával. Havi SEO szolgáltatásaink növelik az organikus forgalmat, és kiemelik Önt a keresési eredmények között."
         },
         "website": {
-            "name": "Weboldal Tervezés",
+            "name": "Weboldal Tervezés és Fejlesztés",
             "description": "Hozzon létre vizuálisan vonzó és felhasználóbarát weboldalt modern tervezési technikákkal. Gyors betöltési időket és intuitív navigációt biztosítunk, hogy az első benyomás számítson."
         },
         "ux": {
-            "name": "UX Tervezés",
+            "name": "UX Tervezés és Felhasználói Élmény",
             "description": "Optimalizálja weboldala használhatóságát és funkcionalitását. Az intuitív navigációra és a gyors betöltési sebességre összpontosítunk, hogy a legjobb felhasználói élményt nyújtsuk az első látogatástól kezdve."
         }
         },
@@ -62,7 +62,7 @@
         "header": "Növeld vállalkozásod weboldalának vagy webshopjának teljesítményét",
         "description": "Részletes elemzés, SEO optimalizálás és UX fejlesztések weboldalakhoz és webshopokhoz.",
         "button": "Árajánlat kérése",
-        "imageAlt": "Laptop, amely üzleti teljesítményjavulást mutat"
+        "imageAlt": "Laptop, amely üzleti teljesítményjavulást mutat SEO és UX fejlesztésekkel"
     },
     "usSection": {
         "introductionTitle": "Bemutatkozás",

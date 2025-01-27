@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'; // React Router Link import
-import logo from '../images/logo.png'
+import logo from '../images/GM website design and seo logo.webp'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next';
 
 const links = [
   { name: "Website Development", href: "/website"},
@@ -12,12 +13,21 @@ const links = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem('language', lng); // Nyelv mentése
+  }
+
   return (
     <nav className='md:scroll-in top-0 z-50 px-10 w-full wrapper h-48'>
         <div className="flex items-center justify-between h-full text-black container mx-auto max-w-[1480px]">
             <button>
               <Link to='/'>
-                <img src={logo} alt="GMDesignLogo" className='w-24' />
+                <img src={logo} alt="
+                GM logo – Website Design and SEO Optimization Services
+                " className='w-24' />
               </Link>
             </button>
 
@@ -40,6 +50,10 @@ const Navbar = () => {
                     <a href={link.href}>{link.name}</a>
                   </li>
                 ))}
+                <div className="md:w-1/4 flex justify-center items-center ml-12">
+                  <button onClick={() => changeLanguage('en')} className='mr-3 md:mb-0 mb-4 hover:bg-gray-800 bg-orange-700 p-3 pr-8 pl-8 rounded-md text-white font-poppins max-w-full'>English</button>
+                  <button onClick={() => changeLanguage('hu')} className='hover:bg-gray-800 md:mb-0 mb-4 bg-orange-700 p-3 pr-8 pl-8 rounded-md text-white font-poppins max-w-full'>Magyar</button>
+                </div>
             </ul>
 
             {/* mobile */}
@@ -59,6 +73,12 @@ const Navbar = () => {
                   <a href={link.href}>{link.name}</a>
                 </li>
               ))}
+              <li className='block text-xl font-poppins'>
+                <button onClick={() => changeLanguage('en')} className='md:mb-0 hover:bg-gray-800 bg-orange-700 p-3 pr-8 pl-8 rounded-md text-white font-poppins max-w-full'>English</button>
+              </li>
+              <li className='block text-xl font-poppins'>
+                <button onClick={() => changeLanguage('hu')} className='hover:bg-gray-800 md:mb-0 mb-4 bg-orange-700 p-3 pr-8 pl-8 rounded-md text-white font-poppins max-w-full'>Magyar</button>
+              </li>
             </ul>
         </div>
     </nav>
